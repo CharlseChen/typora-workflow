@@ -12,8 +12,8 @@
 + 编辑markdown文件默认保存路径
   <img width="771" alt="image" src="https://github.com/CharlseChen/typora-workflow/assets/13670267/a342c9ff-6221-461b-9d83-fc0be8ae7f00">
 + 点击保存（“save”）
-
 + 最后，重载插件即可
+  
   <img width="503" alt="image" src="https://github.com/CharlseChen/typora-workflow/assets/13670267/03784fe2-3696-4012-9d45-7a3f9977a2b3">
 
 ### PS:上面的工作流插件脚本亦可以用于创建其他类型的文件，脚本文件如下
