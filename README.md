@@ -2,7 +2,7 @@
 使用传入文件名，快捷新建一个markdown文件
 ## 前提
 + 需要本地安装一个typora应用
-+ 亦或者安装别的markdown编辑器
++ 亦或者安装别的markdown编辑器,不过需要修改插件脚本中 `open -a "Typora" "$file_path"` 中的Typora为你本地的markdown编辑器名称
 ## 安装
 + 下载md.alfredworkflow文件后，双击后按alfred提示安装即可
 ## 配置
@@ -24,5 +24,5 @@ filename=$1
 file_path="/Users/chenhao/Desktop/$filename"
 
 touch "$file_path"
-open -a "Typora" "$file_path" #这里的Typora换成你需要创建文件类型对应的编辑器，例如Sumlime
+open -a "Typora" "$file_path" #这里的Typora换成你需要创建文件类型对应的编辑器，例如Sublime
 ```
